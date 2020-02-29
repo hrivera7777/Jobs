@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Personaje
+comment1.params=
+comment1.target=void\ muestraNombre()
+comment2.params=target
+comment2.target=void\ golpe(Personaje)
+numComments=3

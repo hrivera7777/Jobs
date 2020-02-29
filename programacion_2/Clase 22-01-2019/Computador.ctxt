@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Computador
+comment1.params=identificador
+comment1.target=Computador(int)
+comment10.params=
+comment10.target=int\ precioComputador()
+comment11.params=a
+comment11.target=int\ mayorVelocidad(Computador)
+comment12.params=args
+comment12.target=void\ main(java.lang.String[])
+comment2.params=identificador\ marcaDelComputador\ velocidadDelComputador
+comment2.target=Computador(int,\ java.lang.String,\ double)
+comment3.params=
+comment3.target=java.lang.String\ getMarcaDelComputador()
+comment4.params=
+comment4.target=double\ getVelocidadDelComputador()
+comment5.params=
+comment5.target=int\ getIdentificador()
+comment6.params=marcaDelComputador
+comment6.target=void\ setMarcaDelComputador(java.lang.String)
+comment7.params=velocidadDelComputador
+comment7.target=void\ setVelocidadDelComputador(double)
+comment8.params=identificador
+comment8.target=void\ setIdentificador(int)
+comment9.params=
+comment9.target=void\ muestraDatos()
+numComments=13

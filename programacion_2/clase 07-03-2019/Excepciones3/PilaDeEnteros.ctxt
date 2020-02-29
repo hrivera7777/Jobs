@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PilaDeEnteros
+comment1.params=maxNumElementos
+comment1.target=PilaDeEnteros(int)
+comment1.text=constructor.\ Recibe\ el\ n\u00FAmero\ m\u00E1ximo\ de\r\nelementos\ que\ puede\ almacenar\ la\ pila
+comment2.params=elemento
+comment2.target=void\ apila(int)
+comment2.text=\r\n\ a\u00F1ade\ un\ elemento\ sobre\ la\ cima\ de\ la\ pila\r\n
+comment3.params=
+comment3.target=int\ desapila()
+comment3.text=\ \r\n\ elimina\ el\ elemento\ en\ la\ cima\ de\ la\ pila\r\n\ \r\n
+comment4.params=
+comment4.target=boolean\ llena()
+comment4.text=\r\n\ retorna\ verdadero\ si\ la\ pila\ est\u00E1\ vacia\ \r\n\ \r\n
+numComments=5

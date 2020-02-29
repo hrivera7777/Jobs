@@ -1,0 +1,72 @@
+
+    private double getBaseIngre(){
+        boolean  bandera = true;
+
+        textoIngresado = campoBaseP.getText();
+
+        while(bandera){
+
+            try{
+
+                base = Integer.parseInt(textoIngresado);
+                bandera = false;
+
+            }catch(NumberFormatException nfe){
+
+                JOptionPane.showMessageDialog(null, "Ingrese un número correcto, intente nuevamente", "Error", JOptionPane.ERROR_MESSAGE);
+
+            }catch (Exception e){
+
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente");
+
+            }
+
+        }
+        return base;
+    }
+
+    private double getAlturaIngre(){
+        boolean  bandera = true;
+        textoIngresado = campoAlturaP.getText();
+        while(bandera){
+            try{
+                altura = Integer.parseInt(textoIngresado);
+                bandera = false;
+
+            }catch(NumberFormatException nfe){
+
+                JOptionPane.showMessageDialog(null, "Ingrese un número correcto, intente nuevamente", "Error", JOptionPane.ERROR_MESSAGE);
+
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente","Error", JOptionPane.ERROR_MESSAGE);
+            }
+
+        }
+
+        return altura;
+
+    }
+
+    private double getApotemaIngre(){
+        boolean  bandera = true;
+
+        textoIngresado = campoApotemaP.getText();
+
+        while(bandera){
+
+            try{
+
+                apotema = Integer.parseInt(textoIngresado);
+                bandera = false;
+
+            }catch(NumberFormatException nfe){
+
+                JOptionPane.showMessageDialog(null, "Ingrese un número correcto, intente nuevamente");
+
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente","Error", JOptionPane.ERROR_MESSAGE);
+            }
+
+        }
+        return apotema;
+    }

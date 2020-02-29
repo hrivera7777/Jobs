@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Libro
+comment1.params=
+comment1.target=int\ difusion()
+comment2.params=
+comment2.target=void\ escribirDescripcion()
+comment3.params=titulo
+comment3.target=Libro(java.lang.String)
+numComments=4

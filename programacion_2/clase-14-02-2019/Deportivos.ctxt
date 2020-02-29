@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Deportivos
+comment1.params=matricula\ marca\ modelo\ color\ precioAlquilerDia\ numeroPuertas\ descapotables
+comment1.target=Deportivos(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int,\ boolean)
+comment2.params=
+comment2.target=int\ getNumeroPuertas()
+comment3.params=
+comment3.target=boolean\ getDescapotables()
+comment4.params=numeroPuertas
+comment4.target=void\ setNumeroPuertas(int)
+comment5.params=descapotables
+comment5.target=void\ setDescapotables(boolean)
+numComments=6

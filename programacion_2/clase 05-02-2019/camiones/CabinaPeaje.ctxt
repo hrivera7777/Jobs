@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=CabinaPeaje
+comment1.params=
+comment1.target=CabinaPeaje()
+comment2.params=
+comment2.target=void\ muestraDatos()
+comment3.params=
+comment3.target=void\ recaudar()
+comment4.params=camion
+comment4.target=void\ a\u00F1adir(Camion)
+comment5.params=
+comment5.target=void\ calculaPeaje()
+numComments=6

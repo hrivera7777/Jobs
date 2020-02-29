@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=BarcoDeVapor
+comment1.params=
+comment1.target=BarcoDeVapor()
+comment2.params=
+comment2.target=void\ alarma()
+comment3.params=mensaje
+comment3.target=void\ alarma(java.lang.String)
+numComments=4

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=BusDosPisos
+comment1.params=matricula\ marca\ modelo\ color\ precioAlquilerDia\ cantidadAsientosDisponibles\ tipoEnergia
+comment1.target=BusDosPisos(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int,\ java.lang.String)
+numComments=2

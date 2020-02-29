@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Socks
+comment1.params=itemID\ description\ colorCode\ price
+comment1.target=Socks(int,\ java.lang.String,\ char,\ double)
+comment2.params=colorCode
+comment2.target=void\ setColorCode(char)
+comment3.params=
+comment3.target=char\ getColorCode()
+numComments=4

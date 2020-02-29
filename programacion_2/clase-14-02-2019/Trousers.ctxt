@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Trousers
+comment1.params=itemID\ description\ colorCode\ price\ fit\ gender
+comment1.target=Trousers(int,\ java.lang.String,\ char,\ double,\ char,\ char)
+comment2.params=colorCode
+comment2.target=void\ setColorCode(char)
+comment3.params=
+comment3.target=char\ getColorCode()
+comment4.params=
+comment4.target=char\ getFit()
+comment5.params=
+comment5.target=char\ getGender()
+numComments=6

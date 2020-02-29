@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Piramide
+comment1.params=base\ altura\ apotema
+comment1.target=Piramide(double,\ double,\ double)
+comment2.params=
+comment2.target=void\ calcularSuperficie()
+comment3.params=
+comment3.target=void\ calcularVolumen()
+comment4.params=
+comment4.target=double\ getBase()
+comment5.params=
+comment5.target=double\ getAltura()
+comment6.params=
+comment6.target=double\ getApotema()
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Defensivo
+comment1.params=nombre
+comment1.target=Defensivo(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ obtenerNombre()
+comment3.params=nombre
+comment3.target=void\ colocarNombre(java.lang.String)
+numComments=4

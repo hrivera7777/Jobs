@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Esfera
+comment1.params=radio
+comment1.target=Esfera(double)
+comment2.params=
+comment2.target=void\ calcularSuperficie()
+comment3.params=
+comment3.target=void\ calcularVolumen()
+comment4.params=
+comment4.target=double\ getRadio()
+numComments=5

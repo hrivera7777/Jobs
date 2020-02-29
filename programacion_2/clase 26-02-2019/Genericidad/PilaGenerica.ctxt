@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=PilaGenerica
+comment1.params=
+comment1.target=PilaGenerica()
+comment2.params=
+comment2.target=int\ tamanio()
+comment3.params=
+comment3.target=boolean\ estaVacia()
+comment4.params=pElemento
+comment4.target=void\ empilar(java.lang.Object)
+comment5.params=
+comment5.target=java.lang.Object\ desempilar()
+comment6.params=
+comment6.target=java.lang.Object\ cima()
+numComments=7

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=DivisionPorCero
+comment1.params=a\ b
+comment1.target=int\ divide(int,\ int)
+comment2.params=
+comment2.target=void\ intermedio()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

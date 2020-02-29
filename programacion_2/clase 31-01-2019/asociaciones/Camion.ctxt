@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Camion
+comment1.params=ejes\ pesoTotal
+comment1.target=Camion(int,\ int)
+comment2.params=
+comment2.target=int\ obtenerEjes()
+comment3.params=
+comment3.target=int\ obtenerPesoTotal()
+numComments=4

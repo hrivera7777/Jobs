@@ -1,0 +1,57 @@
+import javax.swing.*;
+import java.awt.*;
+
+
+public class PanelEsfera extends JFrame{ 
+    private Esfera esfera;
+    JTextField campoRadioE;
+    String textoIngresado;
+    
+    public PanelEsfera(){
+        setVisible(true);
+        JLabel mensajeInicial = new JLabel ("Introduzca el dato requerido para calcular la Superficie y el volumen de una esfera");
+        
+        JLabel radioC = new JLabel("Radio de la Esfera (en cms)");
+        campoRadioE = new JTextField (15);
+     
+        JCheckBox bSuperficie = new JCheckBox ("Superficie", true);
+        JCheckBox bVolumen = new JCheckBox ("Volumen", true);
+        
+        JButton aceptar = new JButton("aceptar");
+        
+        esfera = new Esfera(getRadioIngre());
+        
+        
+    }
+    
+    
+    private double getRadioIngre(){
+        boolean  bandera = true;
+        double radio =0;;
+        textoIngresado = campoRadioE.getText();
+        
+        do{
+            
+            try{
+        
+                radio = Integer.parseInt(textoIngresado);
+                bandera = false;
+                
+            }catch(NumberFormatException nfe){
+            
+                JOptionPane.showMessageDialog(null, "Ingrese un número incorrecto, intente nuevamente");
+        
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente");
+            }
+        
+        
+        }while(bandera);
+        
+        return radio;
+    
+    }
+    
+    
+    
+}

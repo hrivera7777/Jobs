@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Docente
+comment1.params=grupo\ horario
+comment1.target=void\ asignarGrupo(java.lang.String,\ char)
+comment2.params=
+comment2.target=java.lang.String\ obtenerGrupo()
+comment3.params=
+comment3.target=char\ obtenerHorario()
+numComments=4

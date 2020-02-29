@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Buses
+comment1.params=matricula\ marca\ modelo\ color\ precioAlquilerDia\ cantidadAsientosDisponibles\ tipoEnergia
+comment1.target=Buses(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=int\ getCantidadAsientosDisponibles()
+comment3.params=
+comment3.target=java.lang.String\ getTipoEnergia()
+comment4.params=cantidadAsientosDisponibles
+comment4.target=void\ setCantidadAsientosDisponibles(int)
+comment5.params=tipoEnergia
+comment5.target=void\ setTipoEnergia(java.lang.String)
+numComments=6

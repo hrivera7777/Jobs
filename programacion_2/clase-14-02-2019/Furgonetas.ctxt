@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Furgonetas
+comment1.params=matricula\ marca\ modelo\ color\ precioAlquilerDia\ tipoFurgoneta
+comment1.target=Furgonetas(java.lang.String,\ java.lang.String,\ int,\ java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getTipoFurgoneta()
+comment3.params=tipoFurgoneta
+comment3.target=void\ setTipoFurgoneta(java.lang.String)
+numComments=4

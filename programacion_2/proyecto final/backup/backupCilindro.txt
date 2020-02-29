@@ -1,0 +1,140 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class PanelCilindro extends JPanel{
+    private Cilindro cilindro;
+    JTextField campoRadioC;
+    JTextField campoAlturaC;
+    String textoIngresado;
+    
+    public PanelCilindro(){
+        setVisible(true);
+        JLabel mensajeInicial = new JLabel ("Introduzca los datos requeridos para calcular la Superficie y el volumen de un cilindro");
+        
+        JLabel radioC = new JLabel("Radio del Cilindro (en cms)");
+        campoRadioC = new JTextField (15);
+        
+        
+        JLabel alturaC = new JLabel("Altura del Cilindro (en cms)");
+        campoAlturaC = new JTextField (15);
+        
+        
+        JCheckBox bSuperficie = new JCheckBox ("Superficie", true);
+        JCheckBox bVolumen = new JCheckBox ("Volumen", true);
+        
+        JButton aceptar = new JButton("aceptar");
+        
+        cilindro = new Cilindro(getRadioIngre(), getAlturaIngre());
+        
+        
+    }
+    
+    
+    private double getRadioIngre(){
+        boolean  bandera = true;
+        double radio =0;;
+        textoIngresado = campoRadioC.getText();
+        
+        while(bandera){
+            
+            try{
+        
+                radio = Integer.parseInt(textoIngresado);
+                bandera = false;
+                
+            }catch(NumberFormatException nfe){
+            
+                JOptionPane.showMessageDialog(null, "Ingrese un número incorrecto, intente nuevamente");
+        
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente");
+            }
+        
+        
+        }
+        
+        return radio;
+    
+    }
+    
+    private double getAlturaIngre(){
+        
+        boolean  bandera = true;
+        double altura = 0;
+        textoIngresado = campoAlturaC.getText();
+        
+         while(bandera){
+            
+            try{
+        
+                altura = Integer.parseInt(textoIngresado);
+                bandera = false;
+                
+            }catch(NumberFormatException nfe){
+            
+                JOptionPane.showMessageDialog(null, "Ingrese un número incorrecto, intente nuevamente");
+        
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente");
+            }
+        
+        
+        }
+        
+        
+        return altura;
+        
+    }
+    
+}
+
+
+
+
+
+
+private double getRadioIngre(){
+        boolean  bandera = true;
+
+        textoIngresado = campoRadioC.getText();
+
+        while(bandera){
+
+            try{
+
+                radio = Integer.parseInt(textoIngresado);
+                bandera = false;
+
+            }catch(NumberFormatException nfe){
+
+                JOptionPane.showMessageDialog(null, "Ingrese un número incorrecto, intente nuevamente");
+
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente");
+            }
+
+        }
+        return radio;
+    }
+
+    private double getAlturaIngre(){
+        boolean  bandera = true;
+        textoIngresado = campoAlturaC.getText();
+        while(bandera){
+            try{
+                altura = Integer.parseInt(textoIngresado);
+                bandera = false;
+
+            }catch(NumberFormatException nfe){
+
+                JOptionPane.showMessageDialog(null, "Ingrese un número incorrecto, intente nuevamente");
+
+            }catch (Exception e){
+                JOptionPane.showMessageDialog(null, "Error inesperado, intenta nuevamente");
+            }
+
+        }
+
+        return altura;
+
+    }

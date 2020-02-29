@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Alumno
+comment1.params=nombre\ apellidos\ anioDeNacimiento\ codigo\ grupo\ horario\ calle\ num
+comment1.target=Alumno(java.lang.String,\ java.lang.String,\ int,\ int,\ java.lang.String,\ char,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ obtenerNombre()
+comment3.params=
+comment3.target=java.lang.String\ obtenerGrupo()
+comment4.params=
+comment4.target=char\ obtenerHorario()
+comment5.params=grupo\ horario
+comment5.target=void\ asignarGrupo(java.lang.String,\ char)
+comment6.params=dir
+comment6.target=void\ asignarDireccion(Alumno.Direccion)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment8.params=
+comment8.target=void\ imprime()
+numComments=9

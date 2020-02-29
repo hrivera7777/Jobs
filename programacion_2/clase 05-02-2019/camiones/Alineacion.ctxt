@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Alineacion
+comment1.params=nombrePortero\ nombreOfensivo\ nombresDefensivos\ numero_suplentes_campo\ nombresSuplentesCampo
+comment1.target=Alineacion(java.lang.String,\ java.lang.String,\ java.lang.String[],\ int,\ java.lang.String[])
+comment2.params=
+comment2.target=void\ mostrarAlineacion()
+numComments=3
