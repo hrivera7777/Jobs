@@ -8,6 +8,7 @@ package backtracking;
 /**
  *
  * @author HRL56
+ * Hans Rivera
  */
 public class Suma15 {
 
