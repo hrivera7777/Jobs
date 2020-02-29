@@ -8,6 +8,7 @@ package backtracking;
 /**
  *
  * @author HRL56
+ * Hans RIvera
  */
 public class Caballos {
     
