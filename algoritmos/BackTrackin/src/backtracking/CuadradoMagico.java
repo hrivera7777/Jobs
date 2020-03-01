@@ -10,6 +10,7 @@ import java.util.Arrays;
 /**
  *
  * @author HRL56
+ * Hans Rivera
  */
 public class CuadradoMagico {
 
